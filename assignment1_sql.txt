@@ -1,0 +1,39 @@
+1.WAQ to display the employees working in deptno=20
+
+	=>select * from employee where id=20;
+=======================================================================================================================
+2.WAQ to display the employees earning more than rs2500
+
+	=>select * from employee where salary>25000;
+======================================================================================================================
+3.WAQ to display all the employee whose job type is developer
+
+	=>select * from employee where designation='developer';
+=====================================================================================================================
+4.WAQ to display all the employees working in dept 10,20 and 40
+
+	=>select * from employee where dept in(10,20,40);
+=====================================================================================================================
+5.WAQ to display all the employees whose name starts with 'S'
+
+	=>select *from employee where name like 's%';
+=======================================================================================================================
+6.WAQ to display all the employees whose first name is having letter 'L'  as 2nd character
+
+	=>select * from employee where name like '_l%';
+======================================================================================================================
+7.WAQ to display all the employees whose first name is having atleast 2 'A'character
+
+	=>select * from employee where name like '%a%a%';
+======================================================================================================================
+8.WAQ to display all the employees whose last name is having is letter 'E' as the second last character
+
+	=>select * from employee where name like '%e_';
+=======================================================================================================================
+9.WAQ to display all the employees who are having exactly 5 characters in their lastname
+
+	=>select * from employee where name like '_____';
+========================================================================================================================
+10.WAQ to display all the employees all the employees whose salary is between 20000 and 50000
+
+	=>select * from employee where salary between 20000 and 50000;
